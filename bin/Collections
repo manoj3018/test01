@@ -1,0 +1,82 @@
+
+Interface : It is generic blue print of specific class implementation
+            
+Abstract class : It is also similar to interfaces where they provide you a generalization but at same
+                 time they provide a way to write a concrete implementation.
+                 
+                 Ex: In Bank we have Savings account, Recurring account , Current account etc.
+                 There would be some common implementation logic which will be applicable for all account types.(i.e) Account holder, KYC done
+           
+                 
+                 Create an Abstract class of account and create the child class as SA, RA, CA
+                 
+
+Class : A concrete blueprint which holds data and logic together
+
+
+Collection : List , Set, Queue
+
+List -> List is the leniant representation of a collection. It can store duplicates. Basically index based collection 
+        Insertion order is preserved.
+
+Set -> That everything you put in Set is unique. In a real scenario where you collection should never have duplicates
+       you go for Set collection
+       
+Queue -> Inspired from real world. It works on concept of FIFO (First in First Out)
+
+
+
+
+Interfaces = Iterable, Collection, Set, SortedSet, NavigableSet, List, Queue,  Deque
+
+Abstract Class = Abstract Collection, Abstract List, Abstract Set, Abstract Queue, Abstract Sequential List
+
+Class = TreeSet, LinkedList, ArrayList, Vector, Stack , Priority Queue
+
+
+ArrayList - Ordered Collection. It is dynamic array and not a static array. Access element based on the index
+
+LinkedList - Access the element based on the previous and the next element.This is not an index based as like AL.
+
+** HashSet - It inherits the properties of Set which is unique set(no duplicates are allowed) and another more
+             it does not keep track of the elements order if accessed & printed in HashSet will be different
+             
+TreeSet - We can have a sort of fixed order and a tree hierarchy
+
+
+
+Priority Queue - FIFO arrangement. But if there are certain elements in queue which cannot wait until their turn comes then go for PQ.
+
+Stack - LIFO arrangement. 
+
+Vector - They are very similar to lists. One major difference is vector are thread safe & Lists are not thread-safe
+
+
+
+Map - Key : Value arrangement  // Key should be unique ; Value may or may not contain duplicates
+
+HasMap, TreeMap - Not Thread safe ( Will get unpredictable results ). Elements stored or displayed in random manner
+HashTable - Thread safe a.k.a Synchronized representation
+
+LinkedHashMap - We are getting the ordering property which is insertion order and not natural sorting order.
+
+TreeMap - Key : Value arrangement but in a sorted representation
+
+
+Map uses Set class to store its keys & store the values it generally uses List class
+
+
+Intermediate & Terminal Operations in Streams:
+
+https://javaconceptoftheday.com/java-8-stream-intermediate-and-terminal-operations/
+
+
+
+
+
+
+
+
+
+
+

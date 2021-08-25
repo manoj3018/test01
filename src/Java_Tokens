@@ -1,0 +1,23 @@
+ Keywords:
+      abstract assert boolean break byte case catch char class const continue default do double
+      else enum exports extend final finally flot for goto if implements import instanceof int
+      interface long module native new open opens package private protected provides public
+      requires return short static strictfp super switch synchronized this throw throws to
+      transient transitive try uses void volatile while with
+
+Identifiers:
+      any variable name you declare in your program
+      cannot: start with number, contain space, have +,-,&
+
+Constants:
+      final variables
+
+Special Symbols:
+      [] () {} , ; * =
+
+Operators:
+      arithmetic, logical, comparison, bitwise
+      
+      
+ 
+Packages - Ambiguity will be big problem in case of big projects. So we need to put class files names into packages accordingly
